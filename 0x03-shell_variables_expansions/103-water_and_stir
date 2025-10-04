@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=$(echo $WATER | tr 'ewatr' '01234');$(echo $STIR | tr 'ti.r' '0123')" | bc | tr '0123456789' 'bestchol'
